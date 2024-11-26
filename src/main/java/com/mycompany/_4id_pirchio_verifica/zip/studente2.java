@@ -9,9 +9,17 @@ package com.mycompany._4id_pirchio_verifica.zip;
  * @author ospite
  */
 public class studente2 {
-    public String nome;
-    public String cognome;
-    public double voto_matematica;
-    public double voto_storia;
-    public double voto_italiano;
+    public String nome = "leonardo";
+    public String cognome = "biachi";
+    public double voto_matematica = 5;
+    public double voto_storia = 4;
+    public double voto_italiano = 6;
+    public double media_aritmetica;
+    
+    public double Media_aritmetica(){
+        media_aritmetica = (voto_matematica + voto_storia + voto_italiano) / 3;
+        System.out.print("la media aritmetica dello studente " + nome);
+        System.out.print(" " + cognome);
+        return media_aritmetica;
+    }
 }

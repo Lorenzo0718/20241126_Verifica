@@ -11,14 +11,10 @@ package com.mycompany._4id_pirchio_verifica.zip;
 public class App {
 
     public static void main(String[] args) {
-    scan input = new scan();    
-    System.out.println("inserisci voto: ");
-    input.voto1_matematica;
-    System.out.println("inserisci voto: ");
-    input.voto2_storia;
-    System.out.println("inserisci voto: ");
-    input.voto3_italiano;
+   
     studente1 primostudente = new studente1();
-    System.out.print(" e: " + primostudente.Media_aritmetica());
+    System.out.println(" e: " + primostudente.Media_aritmetica());
+    studente2 secondostudente = new studente2();
+    System.out.println(" e: " + secondostudente.Media_aritmetica());
     }
 }
