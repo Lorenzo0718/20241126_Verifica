@@ -8,6 +8,9 @@ package com.mycompany._4id_pirchio_verifica.zip;
  *
  * @author ospite
  */
+//autore: Lorenzo Pirchio 4.inf.D 26/11/2024
+//questo programma fa visionare i voti di 2 studenti la loro media aritmetica e se hanno preso il debito, 
+//fa visionare 3 insegnanti di una scuola con i loro cognomi e le loro materie
 public class App {
 
     public static void main(String[] args) {
