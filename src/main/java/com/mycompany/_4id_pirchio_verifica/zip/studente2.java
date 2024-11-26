@@ -15,11 +15,20 @@ public class studente2 {
     public double voto_storia = 4;
     public double voto_italiano = 6;
     public double media_aritmetica;
+    public String esito;
     
     public double Media_aritmetica(){
         media_aritmetica = (voto_matematica + voto_storia + voto_italiano) / 3;
         System.out.print("la media aritmetica dello studente " + nome);
         System.out.print(" " + cognome);
         return media_aritmetica;
+    }
+    public String promosso_bocciato(){
+        if (media_aritmetica < 6){
+            esito= "lo studente ha il debito";
+        }else{
+            esito = "lo studente non ha il deibito";
+        }
+       return esito;
     }
 }

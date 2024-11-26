@@ -8,6 +8,6 @@ package com.mycompany._4id_pirchio_verifica.zip;
  *
  * @author ospite
  */
-public class insegnanti {
+public class insegnante1 {
     
 }
