@@ -9,6 +9,7 @@ package com.mycompany._4id_pirchio_verifica.zip;
  * @author ospite
  */
 public class insegnante1 {
+    //dichiarazione e inizializzazione attributi della classe insegnante1
     public String cognome = "verdi";
     public String materia = "matematica";
     

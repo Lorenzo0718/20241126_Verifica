@@ -11,7 +11,7 @@ package com.mycompany._4id_pirchio_verifica.zip;
 public class App {
 
     public static void main(String[] args) {
-   
+   //output del primo studente creando un oggetto di tipo studente1 e utilizzando i suoi attributi e metodi
     studente1 primostudente = new studente1();
     
     System.out.print("i voti dello studente " + primostudente.cognome);
@@ -22,6 +22,7 @@ public class App {
     
     System.out.println(primostudente.promosso_bocciato());
     
+    //output del secondo studente creando un oggetto di tipo studente2 e utilizzando i suoi attributi e metodi
     studente2 secondostudente = new studente2();
     
     System.out.println("i voti dello studente " + secondostudente.cognome);
@@ -32,6 +33,7 @@ public class App {
     
     System.out.println(secondostudente.promosso_bocciato());
     
+    //output del primo insegnante creando un oggetto di tipo insegnante1 e utilizzando i suoi attributi e metodi
     insegnante1 insegnantemate = new insegnante1();
     
     System.out.println("gli insegnanti della scuola sono:");
@@ -39,12 +41,12 @@ public class App {
     System.out.println(insegnantemate.cognome);
     System.out.print("che insegna ");
     System.out.println(insegnantemate.materia);
-    
+    //output del secondo insegnante creando un oggetto di tipo insegnante2 e utilizzando i suoi attributi e metodi
     insegnante2 insegnantestoria = new insegnante2();
     System.out.println(insegnantestoria.cognome);
     System.out.print("che insegna ");
     System.out.println(insegnantestoria.materia);
-    
+    //output del terzo insegnante creando un oggetto di tipo insegnante3 e utilizzando i suoi attributi e metodi
     insegnante3 insegnanteita = new insegnante3();
     System.out.println(insegnanteita.cognome);
     System.out.print("che insegna ");
