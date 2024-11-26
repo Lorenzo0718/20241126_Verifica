@@ -8,8 +8,7 @@ package com.mycompany._4id_pirchio_verifica.zip;
  *
  * @author ospite
  */
-public class insegnante1 {
-    public String cognome = "verdi";
-    public String materia = "matematica";
-    
+public class insegnante2 {
+    public String cognome = "esposito";
+    public String materia = "storia";
 }
